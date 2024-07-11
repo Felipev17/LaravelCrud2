@@ -1,0 +1,69 @@
+/* Reset de estilos */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #000000; /* Todos los textos serán blancos */
+}
+
+/* Contenedor principal */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Estilo de la barra de búsqueda */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input[type="search"] {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 70%;
+  color: #000; /* Restaurar el color de texto a negro para la barra de búsqueda */
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo de la tabla */
+.table-striped {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-striped th,
+.table-striped td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-striped th {
+  background-color: #545353;
+  /* Eliminamos la declaración de color para el encabezado de la tabla */
+}
+
+.table-striped tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #5e4a4a;
+}
+
+.table-striped tbody tr{
+  background-color: #fff;
+}

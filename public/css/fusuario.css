@@ -1,0 +1,46 @@
+/* Estilos para el formulario flotante */
+.form-admin {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limita el ancho del formulario */
+  width: 100%; /* Ancho completo */
+  margin: auto; /* Centra el formulario */
+  margin-top: 50px; /* Agrega margen superior para colocar el formulario más abajo */
+}
+
+/* Estilos para los controles del formulario */
+.form-admin .cuadro {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.form-admin input.controls {
+  width: calc(100% - 10px); /* Ajusta el ancho de los campos y considera el margen derecho */
+  margin-bottom: 15px; /* Ajustar margen inferior */
+  padding: 10px 20px; /* Ajustar el relleno para que coincida con el botón */
+  font-size: 16px; /* Tamaño del texto igual al del botón */
+  border: 1px solid #8b0000; /* Cambio de color a vino tinto */
+  border-radius: 5px; /* Esquinas redondeadas */
+}
+
+.form-admin input.controls:hover {
+  border-color: #ab4e52; /* Color más claro al hacer hover */
+}
+
+/* Estilos para los botones */
+.form-admin input.button {
+  width: 100%;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff6600, #ff8c00); /* Cambio a linear gradient naranja */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Esquinas redondeadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.form-admin input.button:hover {
+  background: linear-gradient(45deg, #ff8c00, #ffae42); /* Cambio a tono más claro al hacer hover */
+}

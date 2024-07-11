@@ -1,0 +1,64 @@
+/* Estilos para el formulario flotante */
+.form-admin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Asegura que esté por encima del overlay */
+}
+
+/* Estilos para los controles del formulario */
+.control-group {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples líneas */
+}
+
+.control {
+  margin-bottom: 15px; /* Ajustar margen inferior */
+  margin-right: 30px; /* Añadir separación horizontal */
+  flex: 1 0 calc(50% - 10px); /* Distribuir el espacio de manera equitativa con separación */
+}
+
+.controls {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #8b0000; /* Cambio de color a vino tinto */
+  border-radius: 5px;
+}
+
+.controls:hover {
+  border-color: #ab4e52; /* Color más claro al hacer hover */
+}
+
+
+
+/* Estilos para los botones */
+.button-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  margin-top: 20px; /* Ajustar margen superior */
+}
+
+.button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff6600, #ff8c00); /* Cambio a linear gradient naranja */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Esquinas redondeadas */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #ff8c00, #ffae42); /* Cambio a tono más claro al hacer hover */
+}
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+
+.form-register{
+width: 300px;
+height: 400px;
+background: #9a000f;
+padding: 30px;
+padding-bottom: 57px;
+color: #fff;
+border-radius: 17px 0px 0px 17px;
+padding-bottom: 10px;
+font-size: 1.3em;
+justify-self: flex-start;
+
+
+}
+
+.form-register input[type="text"]{
+opacity: 1;
+display: block;
+border: 1px #5a000f;
+outline: none;
+width: 94.7%;
+padding: 13px 9px;
+margin: 90px 0 0 0;
+font-size: 0.8em;
+border-radius: 100px;
+background-color: #7a000f;
+color: #fff;
+}
+
+.form-register input:focus{
+    animation: bounce 1s;
+    -webketit-appearence: none;
+}
+
+.form-register input[type="submit"],
+.form-register.h4{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 13px;
+    margin: 50px 0 0 0;
+    border-radius: 500px;
+    font-weight: 600;
+    animation: bounce2 1.6s;
+    
+
+}
+
+.h4{
+    padding: 0;
+    position: relative;
+    top: -35px;
+    display: block;
+    margin-bottom: -0px;
+    font-size: 3.3em;
+}
+
+.boton{
+background: linear-gradient(144deg, #df5c0b,#e89110,#dfa820);
+color: #fff;
+padding: 16px !important;
+
+}
+
+.boton:hover{
+    background: linear-gradient( 144deg,#b75307,#b75307,#b75307);
+    color: rgb(255, 255, 255);
+    padding: 16px !important;
+    cursor: pointer;
+    transition: all 0.4 ease;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carrusel {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    align-self: center;
+   
+  }
+  
+  .carrusel img {
+    max-height: 50%;
+    width:700px;
+    border-radius: 0px 17px 17px 0px;
+    height: 440px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -115px;
+  }
+
+  
